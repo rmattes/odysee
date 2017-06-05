@@ -131,10 +131,8 @@ Description=Lucene Indexing Service for ILIAS
 
 [Service]
 User=www-data
-WorkingDirectory=/srv/lucene-glarean
-ExecStart=/usr/bin/java -Xmx256m -Dfile.encoding=UTF-8 -jar /srv/www/ilias/Services/WebServices/RPC/lib/ilServer.jar /etc/glarean/lucene/ilServer.ini start
-ExecStart=/usr/bin/java -Xmx256m -Dfile.encoding=UTF-8 -jar /srv/www/ilias/Services/WebServices/RPC/lib/ilServer.jar /etc/glarean/lucene/ilServer.ini stop
-SuccessExitStatus=143
+ExecStart=/usr/local/sbin/ilias-lucene start
+ExecStop=/usr/local/sbin/ilias-lucene stop
 TimeoutStopSec=10
 Restart=on-failure
 RestartSec=5
