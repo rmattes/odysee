@@ -1,0 +1,23 @@
+#!/bin/sh
+
+CONFIG=/etc/glarean/lucene/ilServer.ini
+JAVA=/usr/bin/java
+JAVA_OPTS="-Xmx256m -Dfile.encoding=UTF-8 -jar"
+ILIAS_HOME=/srv/www/ilias/
+JAR=Services/WebServices/RPC/lib/ilServer.jar
+
+case "$1" in
+    start)
+        $JAVA $JAVA_OPTS $ILIAS_HOME/$JAR $CONFIG start
+        ;;
+    status)
+        $JAVA $JAVA_OPTS $ILIAS_HOME/$JAR $CONFIG status
+        ;;
+    stop)
+        $JAVA $JAVA_OPTS $ILIAS_HOME/$JAR $CONFIG stop
+        ;;
+    *)
+        echo "No idea what to do with $1"
+        exit 1;
+        ;;
+esac
