@@ -1,0 +1,11 @@
+#!/bin/sh
+
+NODE_BIN=/usr/local/bin/node
+SERVER_DIR=/srv/www/ilias/
+DEBUG='*'
+SERVER_CONF=/srv/ilias-data/lehrplattform/chatroom/server.cfg
+CLIENT_CONF=/srv/ilias-data/lehrplattform/chatroom/client.cfg
+
+cd $SERVER_DIR
+
+$DEBUG $NODE_BIN $ILIAS_HOME/Modules/Chatroom/chat/chat.js  $SERVER_CONF $CLIENT_CONF
