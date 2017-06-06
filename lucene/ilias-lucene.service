@@ -18,3 +18,146 @@ case "$1" in
         exit 1;
         ;;
 esac
+~
+
+make
+cd ..
+ls
+make
+sudo make install
+make
+make
+fsfsf
+ls
+ed test-perl.pl
+ls
+which ed
+find-file
+find-file sample-perl.org
+ed sample-perl.org
+pwd
+ls
+make
+make
+cd ..
+ls
+find-file README.md
+guck Sonata_Quinta.pdf
+find-file Sonata_Quinta.pdf
+ed MuseScore.proj
+find-file MuseScore.proj
+file MuseScore.proj
+find-file Makefile.mingw
+type mscore/revision.h
+ls
+less admin
+find-file admin
+ls assets/
+cd awl/
+ls
+find-file CMakeLists.txt
+cd ..
+find -name "*.gch"
+ls
+ls fonttools/
+ls rdoc/
+ls rdoc/de/doc.qhcp
+find-file rdoc/de/doc.qhcp
+find-file rdoc/de/doc.html
+find-file rdoc/en/doc.html
+ls
+ls
+texi2latex paiprolog.texinfo
+ls
+find-file paiprolog.ltx
+ls -lah
+texi2latex paiprolog.texinfo
+texi2pdf paiprolog.texinfo
+ls
+find-file paiprolog.pdf
+.s
+ls
+cd ..
+ls
+find-file README.html
+ls
+find-file compile1.lisp
+perl -c uploader.pl
+perl -c uploader.pl
+perl -c uploader.pl
+perl -c uploader.pl
+perl -c uploader.pl
+perl -c uploader.pl
+perl -c uploader.pl
+perl -c uploader.pl
+perl -c uploader.pl
+ls
+perl -c uploader.pl
+perl -c uploader.pl
+perl  uploader.pl
+perl  uploader.pl
+perl  uploader.pl
+perl  uploader.pl
+perl  uploader.pl
+perl  uploader.pl
+perl  uploader.pl
+perl  uploader.pl
+ls -lah
+git rm Medienraum.org
+git branch -a
+git log
+cd ssh:ldap:
+cd /ssh:ldap:
+ls
+last
+hostname
+logout
+exit
+ssh /ldap-new:
+cd /ssh:adminuin:ldap-new:
+cd /ssh:ldap:/etc/ldap/
+ls
+find-file ldap.conf
+cd /ssh:ralfium:
+ls
+./import_outlook.pl
+la
+ls -la
+./import_outlook.pl
+locate Text/CSV
+sudo -s
+grep tint *
+perl -c enqueue.pm
+perl -c enqueue.pm
+env
+env | grep  GO
+env
+LOGNAME=ralf
+env
+env
+LOGNAME=ralf
+env
+cd
+go run draw3.go
+feh test.png
+go run SVG1.go
+go get github.com/ajstarks/svgo
+go run SVG1.go
+go run SVG1.go
+xkill
+pwd
+cd PROJECTS/THEORY_ONLINE/abcweb_40/
+chromium --remote-debugging-port=9222 abcweb_local.html
+[Unit]
+Description=Lucene Indexing Service for ILIAS
+
+[Service]
+User=www-data
+ExecStart=/usr/local/sbin/ilias-lucene start
+ExecStop=/usr/local/sbin/ilias-lucene stop
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
