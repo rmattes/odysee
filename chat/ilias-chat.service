@@ -1,0 +1,12 @@
+[Unit]
+Description=ILIAS Chat Server
+
+[Service]
+User=www-data
+Group=www-data
+ExecStart=/usr/local/sbin/ilias-chat
+Environment=PATH=/usr/local/sbin
+Restart=allways
+
+[Install]
+WantedBy=multi-user.target
